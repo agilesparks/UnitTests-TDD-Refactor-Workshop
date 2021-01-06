@@ -41,6 +41,10 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "^7.0.3",
-    "cypress": "^6.2.0"
+    "cypress": "^6.2.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
