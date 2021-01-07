@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611b08d9-19eb-4294-abe4-e50e90bb26e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/integration/common/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/simpleTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/simpleTest/steps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/incorrect_password.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +63,9 @@
       <workItem from="1609150117533" duration="298000" />
       <workItem from="1609156233586" duration="7716000" />
       <workItem from="1609938337487" duration="365000" />
-      <workItem from="1609938754662" duration="4264000" />
+      <workItem from="1609938754662" duration="4328000" />
+      <workItem from="1610026990174" duration="686000" />
+      <workItem from="1610030882328" duration="25000" />
     </task>
     <servers />
   </component>
