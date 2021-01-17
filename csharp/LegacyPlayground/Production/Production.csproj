@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E915CF1-1BB1-4410-8A3C-92E671601AFA}</ProjectGuid>
+    <ProjectGuid>{9FCAD60B-88E7-4C33-9D77-BD075637F83F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EGR_Production</RootNamespace>
-    <AssemblyName>EGR-Production</AssemblyName>
+    <RootNamespace>Production</RootNamespace>
+    <AssemblyName>Production</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,18 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gildedrose\BigBrother.cs" />
-    <Compile Include="Gildedrose\ExternalAgencyReporter.cs" />
-    <Compile Include="Gildedrose\ExternalCounter.cs" />
-    <Compile Include="Gildedrose\GildedRoseManager.cs" />
-    <Compile Include="Gildedrose\Item.cs" />
-    <Compile Include="Gildedrose\NewItem.cs" />
-    <Compile Include="Gildedrose\Program.cs" />
+    <Compile Include="ExternalCalls.cs" />
+    <Compile Include="InterestingClass.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnbelievableComplexClass.cs" />
+    <Compile Include="UnInstantiableClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
