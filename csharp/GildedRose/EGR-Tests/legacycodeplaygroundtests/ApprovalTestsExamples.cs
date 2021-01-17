@@ -25,7 +25,7 @@ namespace Legacycodeplaygroundtests
     public class ApprovalTestsExamples
     {
         [ApprovalTests.Namers.UseApprovalSubdirectory("Approvals")]
-        [UseReporter(typeof(DiffReporter))]
+        [UseReporter(typeof(VisualStudioReporter))]
         [TestMethod]
         public void SimpleVerify()
         {
@@ -34,7 +34,7 @@ namespace Legacycodeplaygroundtests
         }
 
         [ApprovalTests.Namers.UseApprovalSubdirectory("Approvals")]
-        [UseReporter(typeof(DiffReporter))]
+        [UseReporter(typeof(VisualStudioReporter))]
         [TestMethod]
         public void ComplexVerify()
         {
