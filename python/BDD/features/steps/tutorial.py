@@ -7,6 +7,10 @@ from hamcrest import assert_that, equal_to
 def step_impl(context,text,number):
     assert_that(text,equal_to("behave"))
     assert_that(number,equal_to(3))
+    times = []
+    for row in context.table:
+        times.append(row['time'])
+    assert_that(len(times),equal_to(3))
     pass
 
 @when('we implement a test')

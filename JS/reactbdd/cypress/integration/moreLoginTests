@@ -1,0 +1,30 @@
+  Scenario: hide password
+    When I open the system at "http://localhost:3000/"
+    And I type 'Avraham' at "user" field
+    And I type 'password' at "password" field
+    Then I see in password field "********"
+
+  Scenario: hide password
+    When I open the system at "http://localhost:3000/"
+    And I type 'Avraham' at "user" field
+    And I type 'password' at "password" field
+    And I check "show password" checkbox
+    Then I see in password field "password"
+
+Scenario: login button disabled when no password
+    When I open the system at "http://localhost:3000/"
+    And I type 'Avraham' at "user" field
+    Then 'button' is disabled
+
+Scenario: tab order
+    When I open the system at "http://localhost:3000/"
+    Then focus is on "user" field
+    When I click tab
+    Then focus is on "password field
+    When I click tab
+    Then focus is on 'button'
+ 
+ Scenario: change password
+    Given Mock server returns "need to change password" for "login" call
+    Then system will popup a window titled "password change"
+    
