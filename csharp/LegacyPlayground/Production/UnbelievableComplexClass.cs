@@ -1,22 +1,22 @@
 namespace Legacycodeplayground
 {
-    public class UnbelivableComplexClass
+    public class UnbelievableComplexClass
     {
-        public UnbelivableComplexClass()
+        public UnbelievableComplexClass()
         {
         }
 
-        public int getProfit()
+        public int GetProfit()
         {
             return 4;
         }
 
-        public void doSomehtingComplex()
+        public void DoSomethingComplex()
         {
 
         }
 
-        public void doSomehtingThatInvolvesSomeAPI()
+        public void DoSomethingThatInvolvesSomeApi()
         {
 
         }
