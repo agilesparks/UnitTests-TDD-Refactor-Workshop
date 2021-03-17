@@ -4,14 +4,14 @@ namespace Legacycodeplayground
     {
         public int internalVariableA;
         public int internalVariableB;
-        public UnbelivableComplexClass complexVariable;
+        public UnbelievableComplexClass complexVariable;
 
-        public UnInstantiableClass(UnbelivableComplexClass complexVariable)
+        public UnInstantiableClass(UnbelievableComplexClass complexVariable)
         {
-            internalVariableA = complexVariable.getProfit();
+            internalVariableA = complexVariable.GetProfit();
         }
 
-        public int methodA(int myParam)
+        public int MethodA(int myParam)
         {
             int i;
             int sum = 0;
@@ -27,21 +27,21 @@ namespace Legacycodeplayground
             return sum;
         }
 
-        public void methodB(int myParam)
+        public void MethodB(int myParam)
         {
             internalVariableB = myParam * 20;
         }
 
-        public void methodC()
+        public void MethodC()
         {
             //Do things
-            complexVariable.doSomehtingComplex();
+            complexVariable.DoSomethingComplex();
             //Do some other things
-            complexVariable.doSomehtingThatInvolvesSomeAPI();
+            complexVariable.DoSomethingThatInvolvesSomeApi();
             //Do some more stuff
         }
 
-        public int getAmount()
+        public int GetAmount()
         {
             return internalVariableA + internalVariableB;
         }
