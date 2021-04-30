@@ -43,6 +43,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApprovalTestsConfig.cs" />
     <Compile Include="legacycodeplaygroundtests\MoqExample.cs" />
     <Compile Include="legacycodeplaygroundtests\Sanity.cs" />
     <Compile Include="legacycodeplaygroundtests\ApprovalTestsExamples.cs" />
