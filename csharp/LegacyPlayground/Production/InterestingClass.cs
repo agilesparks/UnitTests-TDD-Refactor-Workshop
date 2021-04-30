@@ -9,9 +9,9 @@ namespace Legacycodeplayground
             globalVariable = 10;
         }
 
-        public int methodWithComplexParameters(UnbelivableComplexClass complexVariable)
+        public int MethodWithComplexParameters(UnbelievableComplexClass complexVariable)
         {
-            if (complexVariable.getProfit() > 4)
+            if (complexVariable.GetProfit() > 4)
                 return 5;
             else
                 return 10;
@@ -19,7 +19,7 @@ namespace Legacycodeplayground
 
 
 
-        void longMethod(int param)
+        void LongMethod(int param)
         {
             int i;
             int sum = 0;
@@ -43,7 +43,7 @@ namespace Legacycodeplayground
             {
                 for (int j = 0; j < param; j++)
                 {
-                    if (i < getSomethingFromDB(globalVariable) + 50)
+                    if (i < GetSomethingFromDb(globalVariable) + 50)
                         sum = sum + i;
                     else
                         sum = sum + param;
@@ -55,14 +55,14 @@ namespace Legacycodeplayground
             if (sum < param)
             {
                 sum = sum + param;
-                ExternalCalls.updateDB(sum);
+                ExternalCalls.UpdateDb(sum);
             }
             // ....
             // ....
             // ....
         }
 
-        static int getSomethingFromDB(int param)
+        static int GetSomethingFromDb(int param)
         {
             return 10 * param;
         }

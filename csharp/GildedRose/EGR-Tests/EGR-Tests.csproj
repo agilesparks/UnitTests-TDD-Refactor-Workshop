@@ -43,10 +43,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="ApprovalTestsConfig.cs" />
     <Compile Include="legacycodeplaygroundtests\MoqExample.cs" />
     <Compile Include="legacycodeplaygroundtests\Sanity.cs" />
     <Compile Include="legacycodeplaygroundtests\ApprovalTestsExamples.cs" />
+=======
+>>>>>>> cd448f97b7b7218c855be7ac6c0bba1399af74c3
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GildedRoseTests\Sanity.cs" />
   </ItemGroup>
@@ -57,12 +60,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ApprovalTests">
-      <Version>5.4.5</Version>
-    </PackageReference>
-    <PackageReference Include="Moq">
-      <Version>4.15.2</Version>
-    </PackageReference>
     <PackageReference Include="MSTest.TestAdapter">
       <Version>2.1.2</Version>
     </PackageReference>
