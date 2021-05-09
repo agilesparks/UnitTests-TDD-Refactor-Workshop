@@ -1,0 +1,47 @@
+
+
+ def test_zero(self):
+      self.assertEqual(0, bowling_calculator.get_score('00 00 00 00 00 00 00 00 00 00'))
+
+  def test_non_zero(self):
+      self.assertEqual(12, bowling_calculator.get_score('02 00 00 00 00 30 00 00 00 07'))
+
+  def test_strike_no_extra(self):
+      self.assertEqual(20, bowling_calculator.get_score('2/ 00 00 00 00 30 00 00 00 07'))
+
+  def test_two_strikes_no_extra(self):
+      self.assertEqual(27, bowling_calculator.get_score('2/ 00 00 00 00 3/ 00 00 00 07'))
+
+  def test_spare_with_extra(self):
+      self.assertEqual(35, bowling_calculator.get_score('2/ 00 00 00 00 3/ 40 00 00 07'))
+
+  def test_strike_with_no_extra(self):
+      self.assertEqual(26, bowling_calculator.get_score('20 00 X 00 00 30 40 00 00 07'))
+
+  def test_strike_with_one_extra(self):
+      self.assertEqual(28, bowling_calculator.get_score('20 00 X 10 00 30 40 00 00 07'))
+
+  def test_strike_with_two_extras(self):
+      self.assertEqual(32, bowling_calculator.get_score('20 00 X 12 00 30 40 00 00 07'))
+
+  def test_two_strikes_with_two_extras(self):
+      self.assertEqual(53, bowling_calculator.get_score('20 X X 12 00 30 40 00 00 07'))
+
+  def test_strike_with_spare_as_extra(self):
+      
+      self.assertEqual(46, bowling_calculator.get_score('20 00 X 1/ 03 04 00 00 00 70'))
+
+  def test_strike_with_spare_as_extra_and_spar_with_strike(self):
+      
+      self.assertEqual(67, bowling_calculator.get_score('20 00 X 1/ X 04 00 00 00 70'))
+
+  def test_last_round_spare_extra(self):
+      
+      self.assertEqual(50, bowling_calculator.get_score('20 00 X 1/ 03 04 00 00 00 0/ 1'))
+
+  def test_last_round_strike_extra(self):
+      
+      self.assertEqual(145, bowling_calculator.get_score('12 4/ 20 X 35 X X 9/ 4/ X 81'))
+
+  def test_final(self): 
+      self.assertEqual(146, bowling_calculator.get_score('12 4/ 20 X 35 X X 9/ 4/ X 9/'))
