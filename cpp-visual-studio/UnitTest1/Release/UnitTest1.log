@@ -1,0 +1,30 @@
+﻿Build started 10/05/2021 22:04:27.
+     1>Project "C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\UnitTest1\UnitTest1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\UnitTest1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\UnitTest1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt GildedRose.cpp GildedRoseUnitTests.cpp InterestingClass.cpp SanityTests.cpp UnInstantiableClass.cpp
+         GildedRose.cpp
+     1>c:\users\yakik\dev\unittests-tdd-refactor-workshop\cpp-visual-studio\unittest1\gildedrose.cpp(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+         GildedRoseUnitTests.cpp
+         InterestingClass.cpp
+         SanityTests.cpp
+         UnInstantiableClass.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\Release\UnitTest1.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\Release\UnitTest1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\Release\UnitTest1.lib" /MACHINE:X86 /SAFESEH /DLL Release\GildedRose.obj
+         Release\GildedRoseUnitTests.obj
+         Release\InterestingClass.obj
+         Release\SanityTests.obj
+         Release\stdafx.obj
+         Release\UnInstantiableClass.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+            Creating library C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\Release\UnitTest1.lib and object C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\Release\UnitTest1.exp
+         Generating code
+         Finished generating code
+         UnitTest1.vcxproj -> C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\Release\UnitTest1.dll
+     1>Done Building Project "C:\Users\yakik\dev\UnitTests-TDD-Refactor-Workshop\cpp-visual-studio\UnitTest1\UnitTest1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.01

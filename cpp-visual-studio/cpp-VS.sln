@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-VS", "cpp-VS\cpp-VS.vcxproj", "{200AD004-A810-4CC0-8F47-F8A7A9155D94}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest1", "UnitTest1\UnitTest1.vcxproj", "{832C9A8E-2C4D-4CDB-820C-CD72D6C72AAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LegacyCode", "LegacyCode\LegacyCode.vcxproj", "{A0E320B0-E66A-41DA-A8A5-A64061C0D64B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{200AD004-A810-4CC0-8F47-F8A7A9155D94}.Debug|Win32.ActiveCfg = Debug|Win32
-		{200AD004-A810-4CC0-8F47-F8A7A9155D94}.Debug|Win32.Build.0 = Debug|Win32
-		{200AD004-A810-4CC0-8F47-F8A7A9155D94}.Release|Win32.ActiveCfg = Release|Win32
-		{200AD004-A810-4CC0-8F47-F8A7A9155D94}.Release|Win32.Build.0 = Release|Win32
+		{832C9A8E-2C4D-4CDB-820C-CD72D6C72AAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{832C9A8E-2C4D-4CDB-820C-CD72D6C72AAA}.Debug|Win32.Build.0 = Debug|Win32
+		{832C9A8E-2C4D-4CDB-820C-CD72D6C72AAA}.Release|Win32.ActiveCfg = Release|Win32
+		{832C9A8E-2C4D-4CDB-820C-CD72D6C72AAA}.Release|Win32.Build.0 = Release|Win32
+		{A0E320B0-E66A-41DA-A8A5-A64061C0D64B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0E320B0-E66A-41DA-A8A5-A64061C0D64B}.Debug|Win32.Build.0 = Debug|Win32
+		{A0E320B0-E66A-41DA-A8A5-A64061C0D64B}.Release|Win32.ActiveCfg = Release|Win32
+		{A0E320B0-E66A-41DA-A8A5-A64061C0D64B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
