@@ -1,6 +1,6 @@
 Feature: next turn
 
-  @ignore
+  
   Scenario: regular number card
     Given a game with players:
     |player1|player2|player3|
